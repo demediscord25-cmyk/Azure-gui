@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "azure-gui",
+  "version": "${version}",
+  "name": "Azure",
+  "description": "Blue futuristic menu (Right Shift) with base finding and visual modules.",
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.azure.AzureClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
